@@ -109,8 +109,8 @@ const Navbar = () => {
             <Image
               src={
                 isDark
-                  ? "/assets/transparentBlackLogo.png"
-                  : "/assets/transparentWhiteLogo.png"
+                  ? "/assets/blackLogo.png"
+                  : "/assets/whiteLogo.png"
               }
               alt="Kodro Logo"
               width={120}
