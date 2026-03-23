@@ -30,6 +30,14 @@ html {
   --border-color: #e5e7eb;
   --text-muted: #6b7280;
   --hero-bg: #f9fafb;
+  --inverted-card-bg: #0B1B3D;
+  --inverted-card-text: #ffffff;
+  --inverted-card-subtext: rgba(255, 255, 255, 0.8);
+  --inverted-link-bg: rgba(255, 255, 255, 0.1);
+  --inverted-link-text: #ffffff;
+  --inverted-link-hover-bg: #ffffff;
+  --inverted-link-hover-text: #0B1B3D;
+  --inverted-border: rgba(0, 0, 0, 0.05);
 }
 
 /* Dark mode */
@@ -43,6 +51,37 @@ html {
   --border-color: #4b5563;
   --text-muted: #9ca3af;
   --hero-bg: #1f2937;
+  --inverted-card-bg: #f9fafb;
+  --inverted-card-text: #0f172a;
+  --inverted-card-subtext: rgba(15, 23, 42, 0.8);
+  --inverted-link-bg: rgba(15, 23, 42, 0.1);
+  --inverted-link-text: #0f172a;
+  --inverted-link-hover-bg: #0f172a;
+  --inverted-link-hover-text: #ffffff;
+  --inverted-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Inverted Card Utility Classes */
+.card-inverted {
+  background-color: var(--inverted-card-bg);
+  border-color: var(--inverted-border);
+}
+.card-inverted-text {
+  color: var(--inverted-card-text);
+}
+.card-inverted-subtext {
+  color: var(--inverted-card-subtext);
+}
+.card-inverted-link {
+  background-color: var(--inverted-link-bg);
+  color: var(--inverted-link-text);
+}
+.card-inverted-link:hover {
+  background-color: var(--inverted-link-hover-bg) !important;
+  color: var(--inverted-link-hover-text) !important;
+}
+.card-inverted-border {
+  border-color: var(--inverted-border);
 }
 
 body {
